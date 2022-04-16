@@ -42,18 +42,14 @@ section {
 }
 
 section h2 {
-  position: inherit;
-  float: right;
-  right: 5%;
-  top: 10px;
-  margin: 0px 0px;
-  width: 130px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
   text-align: center;
   border: 1px solid white;
   border-top: 0px;
   border-right: 0px;
-  border-bottom-left-radius: 1cm;
-  border-top-left-radius: 1cm;
+  border-radius: 1cm;
   /* background-color: chartreuse; */
 }
 #beef h2 {
@@ -126,3 +122,6 @@ a {
   margin-top: -30px;
 }
 /* End Header */
+footer {
+  margin-top: 50px;
+}
