@@ -7,8 +7,6 @@ h1 {
 }
 
 p {
-  border: 1px solid black;
-  background-color: #a52a2a;
   width: 90%;
   margin-right: auto;
   margin-left: auto;
@@ -19,15 +17,39 @@ p {
 
 /* Positioning of Titles */
 section {
-  /* position: relative; */
+  position: relative;
+  margin: 20px 20px;
 }
 
+#beef section {
+  background-color: aqua;
+  border: 1px solid black;
+}
+
+#chicken section {
+  background-color: khaki;
+  border: 1px solid black;
+}
+
+#sushi section {
+  background-color: lawngreen;
+  border: 1px solid black;
+}
 section h2 {
+  position: inherit;
   float: right;
+  right: 5%;
 }
 /* Simple Responsive Framework. */
 .row {
   width: 100%;
+}
+
+#title {
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  text-align: center;
 }
 
 /********** Large devices only **********/
@@ -45,7 +67,6 @@ section h2 {
   .col-lg-11,
   .col-lg-12 {
     float: left;
-    border: 1px solid green;
   }
   .col-lg-1 {
     width: 8.33%;
@@ -100,7 +121,6 @@ section h2 {
   .col-md-11,
   .col-md-12 {
     float: left;
-    border: 1px solid green;
   }
   .col-md-1 {
     width: 8.33%;
@@ -155,7 +175,6 @@ section h2 {
   .col-sd-11,
   .col-sd-12 {
     float: left;
-    border: 1px solid green;
   }
   .col-sd-1 {
     width: 8.33%;
