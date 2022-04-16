@@ -14,8 +14,17 @@ p {
   margin-left: auto;
   font-family: Helvetica;
   color: white;
+  clear: right;
 }
 
+/* Positioning of Titles */
+section {
+  /* position: relative; */
+}
+
+section h2 {
+  float: right;
+}
 /* Simple Responsive Framework. */
 .row {
   width: 100%;
